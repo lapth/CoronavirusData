@@ -1,0 +1,33 @@
+{
+    "prefix": "https://upload.wikimedia.org/wikipedia",
+    "Mainland China": "{0}/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/180px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "Hong Kong": "",
+    "Macau": "",
+    "Japan": "{0}/en/thumb/9/9e/Flag_of_Japan.svg/180px-Flag_of_Japan.svg.png",
+    "Thailand": "{0}/commons/thumb/a/a9/Flag_of_Thailand.svg/180px-Flag_of_Thailand.svg.png",
+    "Singapore": "{0}/commons/thumb/4/48/Flag_of_Singapore.svg/180px-Flag_of_Singapore.svg.png",
+    "Republic of Korea": "{0}/commons/thumb/0/09/Flag_of_South_Korea.svg/180px-Flag_of_South_Korea.svg.png",
+
+    "Australia":"{0}/en/thumb/b/b9/Flag_of_Australia.svg/180px-Flag_of_Australia.svg.png",
+    "Germany": "{0}/en/thumb/b/ba/Flag_of_Germany.svg/180px-Flag_of_Germany.svg.png",
+    "United States of America": "{0}/en/thumb/a/a4/Flag_of_the_United_States.svg/180px-Flag_of_the_United_States.svg.png",
+    "Taiwan": "{0}/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/383px-Flag_of_the_Republic_of_China.svg.png",
+    "Viet Nam": "{0}/commons/thumb/2/21/Flag_of_Vietnam.svg/180px-Flag_of_Vietnam.svg.png",
+    "Malaysia": "{0}/commons/thumb/6/66/Flag_of_Malaysia.svg/180px-Flag_of_Malaysia.svg.png",
+    
+    "France": "{0}/en/thumb/c/c3/Flag_of_France.svg/180px-Flag_of_France.svg.png",
+    "United Arab Emirates": "{0}/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/180px-Flag_of_the_United_Arab_Emirates.svg.png",
+    "Canada": "{0}/en/thumb/c/cf/Flag_of_Canada.svg/180px-Flag_of_Canada.svg.png",
+    "India": "{0}/en/thumb/4/41/Flag_of_India.svg/180px-Flag_of_India.svg.png",
+    "United Kingdom": "{0}/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/180px-Flag_of_the_United_Kingdom.svg.png",
+    "Russian Federation": "{0}/en/thumb/f/f3/Flag_of_Russia.svg/383px-Flag_of_Russia.svg.png",
+    "Italy": "{0}/en/thumb/0/03/Flag_of_Italy.svg/180px-Flag_of_Italy.svg.png",
+    "Philippines": "{0}/commons/thumb/9/99/Flag_of_the_Philippines.svg/180px-Flag_of_the_Philippines.svg.png",
+    "Nepal": "{0}/commons/thumb/9/9b/Flag_of_Nepal.svg/148px-Flag_of_Nepal.svg.png",
+    "Sri Lanka": "{0}/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/180px-Flag_of_Sri_Lanka.svg.png",
+    "Finland": "{0}/commons/thumb/b/bc/Flag_of_Finland.svg/180px-Flag_of_Finland.svg.png",
+    "Cambodia": "{0}/commons/thumb/8/83/Flag_of_Cambodia.svg/180px-Flag_of_Cambodia.svg.png",
+    "Spain": "{0}/en/thumb/9/9a/Flag_of_Spain.svg/180px-Flag_of_Spain.svg.png",
+    "Sweden": "{0}/en/thumb/4/4c/Flag_of_Sweden.svg/180px-Flag_of_Sweden.svg.png",
+    "Belgium": "{0}/commons/thumb/6/65/Flag_of_Belgium.svg/180px-Flag_of_Belgium.svg.png"
+}
