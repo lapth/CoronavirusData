@@ -19,10 +19,11 @@ var fetchCountriesDataParam = {
         "accept-language": "en-US,en;q=0.9,vi;q=0.8",
         "content-type": "application/json",
         "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
+        "sec-fetch-site": "same-site",
+        "origin": "https://corona.kompa.ai",
+        "referrer": "https://corona.kompa.ai/",
+        "referrerPolicy": "no-referrer-when-downgrade",
     },
-    "referrer": "https://corona.kompa.ai/",
-    "referrerPolicy": "no-referrer-when-downgrade",
     "body": "{\"operationName\":\"countries\",\"variables\":{},\"query\":\"query countries {\\n  countries {\\n    Country_Region\\n    Lat\\n    Long_\\n    Confirmed\\n    Deaths\\n    Recovered\\n    __typename\\n  }\\n  provinces {\\n    Province_Name\\n    Province_Id\\n    Lat\\n    Long\\n    Confirmed\\n    Deaths\\n    Recovered\\n    Last_Update\\n    __typename\\n  }\\n}\\n\"}",
     "method": "POST",
     "mode": "cors"
@@ -154,6 +155,8 @@ class KompaJsonDataService {
         if (!onEvent) {
             console.error("onEvent is not set!");
         }
+        // Do a crawling when starting
+        onEvent();
         const continousEventDelay = CRAWLER_DELAY; // x minutes
         let cronJob = "*/" + continousEventDelay + " * * * *";
         console.logMsg("createCountinousEvent => Creating job for: %s", cronJob);
