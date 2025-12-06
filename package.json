@@ -17,6 +17,6 @@
     "morgan": "~1.9.1",
     "node-fetch": "^2.6.0",
     "node-schedule": "^1.3.2",
-    "nodemailer": "^6.4.2"
+    "nodemailer": "^7.0.11"
   }
 }
